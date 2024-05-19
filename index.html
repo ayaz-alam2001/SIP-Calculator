@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>SIP CALCULATOR</h1> 
+        <div class="field">
+            <label for="">AMOUNT INVESTED ₹</label>
+        </div>
+        <div>
+            <input type="text" placeholder="0 ₹" class="amount">
+        </div>
+        <div class="field">
+            <label for="">Rate of Return %</label>
+        </div>
+        <div>
+            <input type="text" placeholder="0 %" class="rate">
+        </div>
+        <div class="field">
+            <label for="">Duration Yrs</label>
+        </div>
+        <div>
+            <input type="text" placeholder="0 Yrs" class="years">
+        </div>
+        <button onclick="calculateSIP()">CALCULATE</button>
+        <h4>TOTAL AMOUNT :  <p id="amount1">0 ₹</p></h4>
+        <h4>FUTURE AMOUNT :  <p id="futureValue">0 ₹</p></h4>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
